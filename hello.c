@@ -23,7 +23,9 @@ int main(){
 		if(c==EOF&&inWord)
 			wc++;
 	}
-	inWord = TRUE;
+	inWord = FALSE;
 	if(inWord) printf("%d",1);
 	//printf("Number of Characters: %d\n Number of Lines: %d\n Number of Words: %d\n",cc, lc, wc);
+
+
 }
